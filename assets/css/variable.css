@@ -1,0 +1,408 @@
+@font-face {
+	font-family: "TomatoGrotesk-Regular";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-Regular.otf");
+}
+@font-face {
+	font-family: "TomatoGrotesk-SemiBold";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-SemiBold.otf");
+}
+@font-face {
+	font-family: "TomatoGrotesk-Medium";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-Medium.otf");
+}
+@font-face {
+	font-family: "TomatoGrotesk-Bold";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-Bold.otf");
+}
+@font-face {
+	font-family: "TomatoGrotesk-Light";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-Light.otf");
+}
+@font-face {
+	font-family: "TomatoGrotesk-Black";
+	font-display: swap;
+	src: url("../fonts/TomatoGrotesk-Black.otf");
+}
+.bg-light {
+	background-color: #ebf6fb !important;
+}
+.topheading {
+	background: rgb(230, 186, 52);
+	background: linear-gradient(
+		100deg,
+		rgb(230 186 52 / 0%) 0%,
+		rgba(230, 186, 52, 0.804359243697479) 28%,
+		rgba(230, 186, 52, 0.8715861344537815) 73%,
+		rgb(230 186 52 / 0%) 100%
+	);
+	width: 100%;
+	padding: 14px 20px;
+	border-radius: 50px;
+	text-align: center;
+}
+:root {
+	/* Website Background Colors */
+	--default-theme: #f8f7ea;
+	--dark-background: #151515;
+	--btn-color: #002254;
+	--second-btn-color: #f5ec07;
+	--third-btn-color: #438bf7;
+	--four-btn-color: #e6e6e6;
+	--star-bg-color: #f5ec07;
+
+	/* Website Text Colors */
+	--dark-wrapper1: #2f2f2f;
+	--dark-color: #000000;
+	--heading-color: #002254;
+	--bg-color-wrapper: #002254;
+	--white-color: #ffffff;
+	--darkwrapper: #32312f;
+	/* Fonts Start Here */
+	/* Heading Font Start Here */
+	--heading-font: "TomatoGrotesk-Medium";
+	--secondary-regular-font: "TomatoGrotesk-Regular";
+	--secondary-semibold-font: "TomatoGrotesk-SemiBold";
+	--bold-font: "TomatoGrotesk-Bold";
+	--light-font: "TomatoGrotesk-Light";
+	--black-font: "TomatoGrotesk-Black";
+}
+
+/* color */
+.dark-wrap-color {
+	color: var(--dark-wrapper1);
+}
+.text-darkwrappper {
+	color: var(--darkwrapper) !important;
+}
+.bg-color-wrappper {
+	background-color: var(--bg-color-wrapper);
+}
+.heading-color {
+	color: var(--heading-color) !important;
+}
+.heading-color-dark {
+	color: var(--dark-color) !important;
+}
+.second-btn-color {
+	background-color: var(--second-btn-color) !important;
+}
+.third-btn-color {
+	background-color: var(--third-btn-color) !important;
+}
+.four-btn-color {
+	background-color: var(--four-btn-color) !important;
+}
+/* color */
+
+/* Fonts family */
+.heading-font {
+	font-family: var(--heading-font);
+}
+
+.secondary-regular-font {
+	font-family: var(--secondary-regular-font);
+}
+
+.secondary-semibold-font {
+	font-family: var(--secondary-semibold-font);
+}
+
+.primary-regular-font {
+	font-family: var(--regular-font);
+}
+
+.primary-medium-font {
+	font-family: var(--para-font);
+}
+
+.primary-semibold-font {
+	font-family: var(--btn-font);
+}
+
+.primary-bold-font {
+	font-family: var(--bold-font);
+}
+
+/* Fonts family  */
+
+/* Fonts sizes  */
+
+.level-1 {
+	font-size: 50px;
+}
+
+.level-2 {
+	font-size: 45px;
+}
+
+.level-3 {
+	font-size: 35px;
+}
+
+.level-4 {
+	font-size: 30px;
+}
+
+.level-5-lg {
+	font-size: 24px;
+}
+.btn-width {
+	width: 180px;
+}
+.level-5 {
+	font-size: 20px;
+}
+
+.level-6 {
+	font-size: 18px;
+}
+
+.level-7 {
+	font-size: 15px;
+}
+
+.level-8 {
+	font-size: 12px;
+}
+@media (max-width: 1367px) {
+	.level-1 {
+		font-size: 55px;
+	}
+
+	.level-2 {
+		font-size: 38px;
+	}
+
+	.level-3 {
+		font-size: 28px;
+	}
+
+	.level-4 {
+		font-size: 22px;
+	}
+
+	.level-5-lg {
+		font-size: 20px;
+	}
+	.level-5 {
+		font-size: 17px;
+	}
+
+	.level-6 {
+		font-size: 16px;
+	}
+
+	.level-7 {
+		font-size: 14px;
+	}
+
+	.level-8 {
+		font-size: 11px;
+	}
+	.usd-btn {
+		width: 128px;
+	}
+}
+@media (max-width: 1024px) {
+	.level-1 {
+		font-size: 45px;
+	}
+
+	.level-2 {
+		font-size: 27px;
+	}
+
+	.level-3 {
+		font-size: 25px;
+	}
+
+	.level-4 {
+		font-size: 20px;
+	}
+
+	.level-5-lg {
+		font-size: 18px;
+	}
+	.level-5 {
+		font-size: 19px;
+	}
+
+	.level-6 {
+		font-size: 14px;
+	}
+
+	.level-7 {
+		font-size: 13px;
+	}
+
+	.level-8 {
+		font-size: 12px;
+	}
+	.usd-btn {
+		width: 150px;
+	}
+}
+@media (max-width: 912px) {
+	.level-1 {
+		font-size: 60px;
+	}
+
+	.level-2 {
+		font-size: 35px;
+	}
+
+	.level-3 {
+		font-size: 32px;
+	}
+
+	.level-4 {
+		font-size: 25px;
+	}
+
+	.level-5-lg {
+		font-size: 24px;
+	}
+	.level-5 {
+		font-size: 20px;
+	}
+
+	.level-6 {
+		font-size: 22px;
+	}
+
+	.level-7 {
+		font-size: 21px;
+	}
+
+	.level-8 {
+		font-size: 14px;
+	}
+	.usd-btn {
+		width: 150px;
+	}
+}
+@media (max-width: 576px) {
+	.level-1 {
+		font-size: 27px !important;
+	}
+
+	.level-2 {
+		font-size: 24px !important;
+	}
+
+	.level-3 {
+		font-size: 18px !important;
+	}
+
+	.level-4 {
+		font-size: 17px !important;
+	}
+
+	.level-5-lg {
+		font-size: 16px !important;
+	}
+	.level-5 {
+		font-size: 14px !important;
+	}
+
+	.level-6 {
+		font-size: 16px !important;
+	}
+
+	.level-7 {
+		font-size: 13px !important;
+	}
+
+	.level-8 {
+		font-size: 13px !important;
+	}
+}
+@media (max-width: 321px) {
+	.level-1 {
+		font-size: 23px !important;
+	}
+
+	.level-2 {
+		font-size: 20px !important;
+	}
+
+	.level-3 {
+		font-size: 15px !important;
+	}
+
+	.level-4 {
+		font-size: 14px !important;
+	}
+
+	.level-5-lg {
+		font-size: 13px !important;
+	}
+	.level-5 {
+		font-size: 12px !important;
+	}
+
+	.level-6 {
+		font-size: 13px !important;
+	}
+
+	.level-7 {
+		font-size: 11px !important;
+	}
+
+	.level-8 {
+		font-size: 11px !important;
+	}
+}
+
+/* Fonts sizes  */
+
+/* Colors  */
+.text-color-dark {
+	color: var(--dark-color);
+}
+.text-color {
+	color: var(--light-color);
+}
+.extra-color-1 {
+	color: var(--dark-background);
+}
+.extra-color-2 {
+	color: var(--extra-color-2);
+}
+.extra-color-3 {
+	color: var(--blue-color);
+}
+.extra-color-6 {
+	color: var(--extra-color-6);
+}
+.extra-bg-1 {
+	background-color: var(--dark-background);
+}
+.extra-bg-3 {
+	background-color: var(--blue-color);
+}
+.extra-bg-4 {
+	background-color: var(--border-color);
+}
+.extra-bg-5 {
+	background-color: var(--extra-color-5);
+}
+.extra-bg-6 {
+	background-color: var(--extra-color-6);
+}
+.btn-bg {
+	background-color: var(--btn-color);
+}
+.btn-second {
+	background-color: var(--second-btn-color);
+}
+/* Colors  */
+/* border-radius */
+.rounded-wrapper {
+	border-radius: 30px;
+}

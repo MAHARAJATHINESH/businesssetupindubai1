@@ -1,0 +1,694 @@
+section.heading-wrapper-main {
+	background: rgb(4, 18, 54);
+	background: linear-gradient(
+		90deg,
+		rgba(4, 18, 54, 1) 0%,
+		rgba(45, 84, 161, 1) 100%
+	);
+	padding: 190px 0 40px 0;
+}
+
+.calender-img {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.calender-read-content {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.blog-card img {
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	height: 265px;
+	object-fit: fill;
+}
+
+.calender-img img {
+	width: 25px;
+	height: 25px;
+	object-fit: scale-down;
+}
+
+.content-blog p {
+	color: #939393;
+}
+
+.calender-img span h5 {
+	font-family: "TomatoGrotesk-Regular";
+	font-size: 15px;
+	color: #061740;
+}
+
+.content-blog h4 {
+	font-family: "TomatoGrotesk-Medium";
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+h5.border-left {
+	border-left: 1px solid black;
+	padding-left: 20px;
+	font-family: "TomatoGrotesk-Regular";
+	font-size: 15px;
+	color: #061740;
+}
+
+.content-blog {
+	padding: 26px;
+	background: #faf9ff;
+	border-radius: 0px 0px 15px 15px;
+}
+
+h5.border-left a {
+	font-family: "TomatoGrotesk-Regular";
+	font-size: 15px;
+	color: #061740;
+}
+
+section.our-blog-sec {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.pagination {
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.pagination .prev,
+.pagination .next {
+	display: inline-block;
+	margin: 0 5px;
+	color: #fff;
+	background-color: #14378a;
+	padding: 5px;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.pagination .page {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 4px 12px;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	font-family: "TomatoGrotesk-Medium";
+	font-size: 15px;
+	color: #14378a;
+}
+
+.pagination .page.active {
+	background-color: #14378a;
+	/* Active color */
+	color: #fff;
+	/* Text color for active page */
+}
+
+.pagination .page:hover {
+	background-color: #ccc;
+	/* Hover color */
+	cursor: pointer;
+}
+section.blog-detail-content {
+	padding: 70px;
+}
+
+.share-social ul.social-wrapper li a i {
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	width: 40px;
+	display: flex;
+	height: 39px;
+	border-radius: 30%;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: #002254;
+}
+
+p.b-d-para {
+	color: #9a9a9a;
+	font-size: 14px;
+}
+
+h5.share-wrapper {
+	color: #1a3a80;
+	margin-right: 10px;
+	font-family: "TomatoGrotesk-Regular";
+}
+
+.detail-blog {
+	padding-bottom: 60px;
+	padding-top: 60px;
+	background: #faf9ff;
+}
+
+/* corperate  section */
+
+.corparate-banner ol.breadcrumb.topheading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 287px;
+}
+
+.leading-company.corparate-service-heading h2 {
+	color: #102c6d !important;
+}
+
+ul.corparate-list li h5 {
+	color: #2d4e8f;
+	font-size: 16px;
+	font-family: "TomatoGrotesk-SemiBold";
+}
+
+section.corperate-sec {
+	padding: 80px 0;
+}
+
+.legal-number h5 {
+	background: #2b519e;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: #fff;
+	font-family: general sans;
+	font-family: "TomatoGrotesk-SemiBold";
+}
+
+.legal-number {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+}
+.legal-transfer-list {
+	background-image: url(../img/legal-border.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	padding: 40px;
+	border-radius: 20px;
+}
+.got-question-heading {
+	background: rgb(4, 18, 54);
+	background: linear-gradient(
+		90deg,
+		rgba(4, 18, 54, 1) 0%,
+		rgba(45, 84, 161, 1) 100%
+	);
+	padding: 60px 0 60px 0;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.legal-transfer-list.position-relative h4 {
+	font-family: "TomatoGrotesk-Bold";
+	font-size: 20px;
+	text-align: center;
+	color: #21448c;
+	height: 70px;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section.legal-sec {
+	padding: 20px 0 110px 0;
+}
+.got-question-heading h3 {
+	color: #e7bb34;
+}
+.got-question-heading ul.social-header i {
+	color: #21448c;
+	font-size: 16px;
+	background: #e7bb34;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section.got-my-question {
+	padding-bottom: 90px;
+	padding-top: 30px;
+}
+
+/* cost calculator sec css */
+.cost-calaculator-form {
+	/* background-image: url(../img/cost-border-main.webp); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	padding: 40px;
+	border-radius: 20px;
+	background: rgb(7, 24, 66);
+	background: linear-gradient(
+		90deg,
+		rgba(7, 24, 66, 1) 0%,
+		rgba(22, 53, 121, 1) 45%,
+		rgba(44, 83, 160, 1) 100%
+	);
+	border: 1px solid #e7bb34;
+}
+.cost-calaculator-form h2 {
+	font-family: "TomatoGrotesk-SemiBold";
+	font-size: 40px;
+	background: linear-gradient(
+		100deg,
+		rgb(239 243 245) 0%,
+		rgb(221 226 227) 42%,
+		rgb(69 197 233) 88%
+	);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-transform: capitalize;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+}
+.cost-calaculator-form p {
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+.custom-select {
+	position: relative;
+	width: 100%;
+}
+
+.custom-select select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #7187b5;
+	color: white;
+	border: 1px solid #e7bb34;
+	padding: 15px 32px 13px 17px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "TomatoGrotesk-Regular";
+}
+
+h5.information-personal-heading {
+	font-family: "TomatoGrotesk-SemiBold";
+	font-size: 25px;
+	background: linear-gradient(
+		100deg,
+		rgb(239 243 245) 0%,
+		rgb(221 226 227) 42%,
+		rgb(69 197 233) 88%
+	);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-transform: capitalize;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.cost-calaculator-form .form-control {
+	background: #7187b5;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	border-radius: 0px;
+	padding: 15px 20px;
+	resize: none;
+	border-radius: 50px;
+	/* border: 1px solid black; */
+	border-radius: 8px;
+	font-family: "TomatoGrotesk-Regular";
+}
+
+.cost-calaculator-form .form-control::placeholder {
+	font-family: "TomatoGrotesk-Regular";
+	color: #fff;
+}
+
+/* free zone */
+
+section.business-sec.helen-sec p {
+	font-size: 16px;
+	font-family: "TomatoGrotesk-Regular";
+	color: #777777;
+}
+
+/* .content-wrapper {
+    background: #fff;
+    border: 1px solid #E7BB34;
+    border-radius: 0px 0px 20px 20px;
+    padding: 28px;
+    border-top: none;
+} */
+
+.content-wrapper {
+	background-image: url(../img/border-company.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 30px;
+	border-radius: 20px;
+}
+section.comapny-registraion-detail {
+	padding: 40px 0 60px 0;
+}
+.content-wrapper h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.content-wrapper p {
+	color: #939393;
+}
+/* business setup */
+.busness-content h2 {
+	color: #fff;
+	font-family: "TomatoGrotesk-SemiBold";
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2f2f2f;
+	text-transform: capitalize;
+}
+
+section.business-sec {
+	padding: 100px 0;
+}
+
+.busness-content h2 span {
+	color: #fff;
+	font-family: "TomatoGrotesk-SemiBold";
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #21448c !important;
+}
+
+.overlay-wrapper {
+	background: rgb(4, 18, 54);
+	background: linear-gradient(
+		90deg,
+		rgba(4, 18, 54, 1) 0%,
+		rgba(45, 84, 161, 1) 100%
+	);
+	padding: 190px 0 60px 0;
+	opacity: 0.8;
+}
+
+.free-zone-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.5s ease;
+	/* border-radius: 30px; */
+}
+
+.plan-zone-wrapper:hover .overlay-text {
+	display: none;
+}
+
+.img-wrapper-plan img {
+	width: 100%;
+	height: 520px;
+	object-fit: fill;
+	position: relative;
+	z-index: -1;
+}
+
+.plan-zone-wrapper {
+	position: relative;
+}
+
+.plan-zone-wrapper:hover .free-zone-wrap {
+	height: 100%;
+}
+
+.overlay-wrapper {
+	background: rgb(4, 18, 54);
+	background: linear-gradient(
+		90deg,
+		rgba(4, 18, 54, 1) 0%,
+		rgba(45, 84, 161, 1) 100%
+	);
+	padding: 190px 0 60px 0;
+	opacity: 0.8;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+
+.text-padding {
+	padding: 70px 40px 70px 40px;
+}
+
+.popular-heading h5 {
+	background: #5a75aa;
+	width: 160px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	margin: 30px;
+	font-size: 18px;
+}
+
+.bg-free-zonewrap img {
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	object-fit: scale-down;
+	border-radius: 10px;
+	padding: 13px;
+}
+
+.bg-free-zonewrap h3 {
+	color: #fff;
+	font-family: "TomatoGrotesk-Bold";
+	font-size: 29px;
+	text-align: center;
+}
+h2.price {
+	font-size: 43px;
+	font-family: "TomatoGrotesk-Bold";
+	color: #fff;
+	text-align: center;
+}
+h2.price span {
+	font-family: "TomatoGrotesk-Regular";
+	font-size: 34px;
+	color: #d2d2d2;
+}
+
+ul.list-zone li p {
+	margin-bottom: 0;
+}
+
+ul.list-zone li {
+	margin-bottom: 10px;
+}
+
+ul.list-zone {
+	margin-top: 17px;
+}
+
+.text-padding p {
+	color: #d9dbe9;
+	text-align: center;
+}
+a.primary-button.widht-wrapping {
+	width: 100%;
+}
+
+.overlay-second {
+	filter: blur(0px);
+	background-color: #ffffff2e;
+	backdrop-filter: blur(5px);
+	padding: 190px 0 60px 0;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+
+.plan-zone-wrapper.blur-wrapper-zone p {
+	color: #fff;
+	text-align: center;
+}
+.plan-zone-wrapper.blur-wrapper-zone h2.price {
+	color: #f7bb18;
+	text-align: center;
+}
+
+.plan-zone-wrapper.blur-wrapper-zone .bg-free-zonewrap h3 {
+	color: #fff;
+	font-size: 29px;
+	text-align: center;
+}
+.plan-zone-wrapper.blur-wrapper-zone h2.price span {
+	color: #f7bb18;
+}
+span.small-wrap {
+	font-size: 19px !important;
+	position: relative;
+	top: -16px;
+}
+h5.get-in-content {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+}
+h4.price {
+	font-size: 20px;
+	text-align: center;
+	color: #dbcccc;
+}
+.rotate-wrapper {
+	background: antiquewhite;
+	padding: 7px;
+	text-align: center;
+	transform: rotate(45deg);
+	position: absolute;
+	right: -39px;
+	top: 21px;
+	border-radius: 0px;
+	width: 160px;
+	background: rgb(7, 24, 66);
+	background: linear-gradient(
+		90deg,
+		rgba(7, 24, 66, 1) 0%,
+		rgba(22, 53, 121, 1) 45%,
+		rgba(44, 83, 160, 1) 100%
+	);
+}
+.rotate-wrapper h5 {
+	color: #fff;
+	font-size: 14px;
+}
+.overlay-text.blue h4 {
+	color: #0c1c3c;
+}
+/* term-condition private policy*/
+section.main-term-policy {
+	padding: 90px 0;
+}
+/* contect us */
+.contact-form h2 {
+	text-transform: capitalize;
+}
+
+.responsive-map-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.responsive-map-container iframe,
+.responsive-map-container object,
+.responsive-map-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.contant-heading h2 {
+	font-family: "TomatoGrotesk-SemiBold";
+	font-size: 55px;
+}
+
+section.contact-us-wrapper {
+	padding: 80px 0;
+}
+
+.contact-info a {
+	color: #000;
+}
+
+section.contact-us-wrapper .contact-form .form-group input.form-control {
+	background: transparent;
+	border: 1px solid #1e1e1e;
+	border-radius: 5px;
+}
+
+section.contact-us-wrapper .contact-form .form-group textarea.form-control {
+	height: 135px;
+	border: 0;
+	background: transparent;
+	border: 1px solid #1e1e1e;
+	border-radius: 5px;
+	color: #676767;
+	transition: 0.8s;
+	resize: none;
+	box-shadow: none;
+}
+
+section.contact-us-wrapper .contact-form .form-group input::placeholder {
+	font-family: "TomatoGrotesk-Medium";
+	font-size: 15px;
+	color: #8e8e8e;
+}
+
+section.contact-us-wrapper
+	.contact-form
+	.form-group
+	textarea.form-control::placeholder {
+	font-family: "TomatoGrotesk-Medium";
+	font-size: 15px;
+	color: #8e8e8e;
+}
+
+section.contact-us-wrapper .contact-form .primary-button {
+	background: #14378a;
+	color: #fff;
+}
+@media (max-width: 1367px) {
+	.team-content {
+		padding: 30px;
+	}
+	.team-content .team-wrapper h5 {
+		font-size: 18px;
+	}
+	.busness-content h2 {
+		font-size: 35px;
+	}
+	.busness-content h2 span {
+		font-size: 35px;
+	}
+	.plan-zone-wrapper.blur-wrapper-zone .bg-free-zonewrap h3 {
+		font-size: 25px;
+	}
+	.bg-free-zonewrap h3 {
+		font-size: 25px;
+	}
+}
